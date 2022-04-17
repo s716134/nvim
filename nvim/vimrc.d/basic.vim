@@ -11,3 +11,5 @@ set inccommand=nosplit
 
 " you need to install the specified font.
 set guifont=Code\ New\ Roman\ Nerd\ Font\ Complete\ Mono\ Types:h12
+
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab

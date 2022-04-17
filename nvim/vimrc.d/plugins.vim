@@ -45,12 +45,4 @@ let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
 nmap <F12> :NERDTreeToggle<CR>             
 
-" need have openjdk
-"nmap <F10> :!java %<CR>
-
-" need  have docker & openjdk image
-"nmap <F9> :!docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp registry.access.redhat.com/ubi8/openjdk-11 java %<CR>
-
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
-
 colorscheme github_dark
