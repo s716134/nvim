@@ -6,7 +6,7 @@ The Neovim config by myself.
 2. Download [vim-plug](https://github.com/junegunn/vim-plug).If you want change the others vim plugin manage tools,you must change plugin syntax.
 3. Some mapping key need install or download runtimes like openjdk, golang, docker ...etc.
 
-## Confgguration    
+## Configuration    
 * Windows 
 ```bash
 $ git clone https://github.com/s716134/neovim-configs.git 
