@@ -9,8 +9,7 @@ The Neovim config by myself.
 ## Configuration    
 * Windows 
 ```bash
-$ git clone https://github.com/s716134/neovim-configs.git 
-$ md C:\Users\${yourUserName}\AppData\Local\nvim\
-$ cp .\neovim-configs\nvim\* C:\Users\${yourUserName}\AppData\Local\nvim\.
+$ cd ~/AppData/Local/
+$ git clone https://github.com/s716134/neovim.git
 ```
 
