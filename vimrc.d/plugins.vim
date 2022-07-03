@@ -13,7 +13,7 @@ Plug 'kyazdani42/nvim-web-devicons'                         " web devicons.
 Plug 'ryanoasis/vim-devicons'                               " web devicons.
 Plug 'projekt0n/circles.nvim'                               " uniform icons for neovim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}             " use release branch (recommend)
-"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " interface for tree-sitter and some basic functionality
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " interface for tree-sitter and some basic functionality
 Plug 'fatih/vim-go' , { 'do': ':GoInstallBinaries' }        " go plugin
 Plug 'projekt0n/github-nvim-theme'                          " github theme for vim
 call plug#end()

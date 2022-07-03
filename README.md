@@ -1,4 +1,6 @@
 # neovim-config
+![](https://img.shields.io/badge/Windows-11-green?logo=windows) ![](https://img.shields.io/badge/Neovim-v0.7.2-green?logo=Neovim) 
+
 The Neovim config by myself.
 
 ## Prerequires
