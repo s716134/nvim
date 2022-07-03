@@ -13,7 +13,7 @@ Plug 'kyazdani42/nvim-web-devicons'                         " web devicons.
 Plug 'ryanoasis/vim-devicons'                               " web devicons.
 Plug 'projekt0n/circles.nvim'                               " uniform icons for neovim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}             " use release branch (recommend)
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " interface for tree-sitter and some basic functionality 
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " interface for tree-sitter and some basic functionality
 Plug 'fatih/vim-go' , { 'do': ':GoInstallBinaries' }        " go plugin
 Plug 'projekt0n/github-nvim-theme'                          " github theme for vim
 call plug#end()
@@ -43,6 +43,13 @@ let g:github_function_style = "italic"
 let g:github_variable_style = "italic"
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
-nmap <F12> :NERDTreeToggle<CR>             
+let g:go_doc_popup_window = 1
+let g:go_term_mode = "vsplit"
+let g:go_fmt_command = "goimports"
+let g:go_auto_type_info = 1
+let g:go_list_autoclose = 0
+let g:go_term_close_on_exit = 0
+
+nmap <F12> :NERDTreeToggle<CR>
 
 colorscheme github_dark
